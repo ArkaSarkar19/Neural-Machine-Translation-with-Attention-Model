@@ -1,1 +1,1 @@
-# Neural-Machine-Transaction-with-Attension-Model
+# Neural-Machine-Translation-with-Attention-Model
