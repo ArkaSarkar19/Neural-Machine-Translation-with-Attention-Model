@@ -11,11 +11,11 @@ The code is in Python 3. </br>
     * context^⟨t⟩: the context vector </br >
 
 * model() function </br>
-* Model first runs the input through a Bi-LSTM to get [a<1>,a<2>,...,a<Tx>][a<1>,a<2>,...,a<Tx>].
-* Then, model calls one_step_attention() Ty times using a for loop. At each iteration of this loop:
-    * It gives the computed context vector context<t>context<t> to the post-attention LSTM.
-    * It runs the output of the post-attention LSTM through a dense layer with softmax activation.
-    * The softmax generates a prediction ŷ 
+   * Model first runs the input through a Bi-LSTM to get [a<1>,a<2>,...,a<Tx>][a<1>,a<2>,...,a<Tx>].
+   * Then, model calls one_step_attention() Ty times using a for loop. At each iteration of this loop:
+       * It gives the computed context vector context<t>context<t> to the post-attention LSTM.
+       * It runs the output of the post-attention LSTM through a dense layer with softmax activation.
+       * The softmax generates a prediction ŷ 
   
   
 ![ntm](readme_images/attn_model.png)
