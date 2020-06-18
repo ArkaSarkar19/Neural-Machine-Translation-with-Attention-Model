@@ -25,23 +25,25 @@ The code is in Python 3. </br>
 In model.py I have added some examples as a test set. You can modify that to test your own examples. </br>
 
 * Sample Output 
+   * After training for 20 epochs. </br>
+   
+            source: 3 May 1979
+            output: 1979-05-03
+            source: 5 April 09
+            output: 2009-04-05
+            source: 21th of August 2016
+            output: 2016-08-01
+            source: Tue 10 Jul 2007
+            output: 2007-07-10
+            source: Saturday May 9 2018
+            output: 2018-05-09
+            source: March 3 2001
+            output: 2001-03-03
+            source: March 3rd 2001
+            output: 2001-03-01
+            source: 1 March 2001
+            output: 2001-03-01
 
-      source: 3 May 1979
-      output: 1977-07-17
-      source: 5 April 09
-      output: 2988-07-28
-      source: 21th of August 2016
-      output: 2000-01-13
-      source: Tue 10 Jul 2007
-      output: 2000-07-22
-      source: Saturday May 9 2018
-      output: 2018-02-28
-      source: March 3 2001
-      output: 2000-03-13
-      source: March 3rd 2001
-      output: 2000-01-13
-      source: 1 March 2001
-      output: 2000-01-11
 
 
 ### Note
